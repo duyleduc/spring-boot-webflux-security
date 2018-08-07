@@ -2,10 +2,10 @@
 
 Configure your spring boot webflux security using authentication with authorization header
 
-You could find my article at: 
+You could find my article at: https://medium.com/@ldduy1006/spring-webflux-security-configuration-28ac86423a42
 
 > Start application
-> To get token 
+> Get token 
 POST /authorize
 Body: 
 {
@@ -13,9 +13,9 @@ Body:
   "password: "password"
 }
 
-> To Test ws with authorization header
+> Call WS with authorization header
 GET /api/hello?name=world
 Authorization: Bearer ${token}
 
-Resultat:
+>> Resultat:
 Hello world
